@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body p{
+  font-size: 15px;
+}
+
+.container{
+  width:450px ;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.card{
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+}
+
+.image{
+  margin-bottom: 30px;
+}
+
+.text h1{
+  margin-bottom: 15px ;
+  text-align: center;
+  color: #1f2f56;
+}
+
+.some-text{
+  margin: 20px 70px;
+  text-align: center;
+  line-height: 1.6;
+  word-spacing: 0.8px;
+  color: hsl(224, 23%, 55%);
+}
+
+.left{
+  display: flex;
+  align-items: center;
+}
+
+.para{
+  margin-bottom: 10px;
+  color: #1f2f56;
+  font-weight: bolder;
+}
+
+.anchor:hover{
+  text-decoration: none;
+}
+
+.plan{
+  background-color: #f5f7ff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  align-items:center;
+  margin: 0 auto;
+  border-radius: 16px;
+  max-height: 12vh;
+  padding: 5px;
+}
+
+.annual{
+  justify-content: space-between;
+  margin: 10px 20px;
+  margin-right: 40px;
+}
+
+.charges{
+  color: hsl(224, 23%, 55%);
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.pay{
+  margin-bottom: 35px ;
+  width: 300px;
+  margin-left: 75px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 3px 30px  rgba(56, 41, 224, 0.527);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.pay:hover{
+  background-color: rgba(56, 41, 224, 0.699);
+  
+}
+
+.cancel{
+  cursor: pointer;
+  border: none;
+  background-color: #ffff;
+  color:hsl(224, 23%, 55%);
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+.cancel:hover{
+  color: #1f2f56;
+}
